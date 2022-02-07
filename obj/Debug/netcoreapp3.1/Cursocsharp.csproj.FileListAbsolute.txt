@@ -1,0 +1,13 @@
+/home/kleber/Desktop/Cursocsharp/bin/Debug/netcoreapp3.1/Cursocsharp
+/home/kleber/Desktop/Cursocsharp/bin/Debug/netcoreapp3.1/Cursocsharp.deps.json
+/home/kleber/Desktop/Cursocsharp/bin/Debug/netcoreapp3.1/Cursocsharp.runtimeconfig.json
+/home/kleber/Desktop/Cursocsharp/bin/Debug/netcoreapp3.1/Cursocsharp.runtimeconfig.dev.json
+/home/kleber/Desktop/Cursocsharp/bin/Debug/netcoreapp3.1/Cursocsharp.dll
+/home/kleber/Desktop/Cursocsharp/bin/Debug/netcoreapp3.1/Cursocsharp.pdb
+/home/kleber/Desktop/Cursocsharp/obj/Debug/netcoreapp3.1/Cursocsharp.csprojAssemblyReference.cache
+/home/kleber/Desktop/Cursocsharp/obj/Debug/netcoreapp3.1/Cursocsharp.AssemblyInfoInputs.cache
+/home/kleber/Desktop/Cursocsharp/obj/Debug/netcoreapp3.1/Cursocsharp.AssemblyInfo.cs
+/home/kleber/Desktop/Cursocsharp/obj/Debug/netcoreapp3.1/Cursocsharp.csproj.CoreCompileInputs.cache
+/home/kleber/Desktop/Cursocsharp/obj/Debug/netcoreapp3.1/Cursocsharp.dll
+/home/kleber/Desktop/Cursocsharp/obj/Debug/netcoreapp3.1/Cursocsharp.pdb
+/home/kleber/Desktop/Cursocsharp/obj/Debug/netcoreapp3.1/Cursocsharp.genruntimeconfig.cache
