@@ -10,92 +10,108 @@ namespace Cursocsharp
     {
         static void Main(string[] args)
         {
-            string numeroUm;
-            string numeroDois;
-            string operador;
-            int total = 0;
+            Menu();
+        }
+        public static void Menu()
+        {
+            Console.WriteLine("---------CALCULADORA--------------");
+            Console.WriteLine("Digite uma opção");
+            Console.WriteLine("1 - Soma");
+            Console.WriteLine("2 - Divisão");
+            Console.WriteLine("3 - subtração  ");
+            Console.WriteLine("4 - multiplicação  ");
+            Console.WriteLine("5 - Sair  ");
+            Console.WriteLine("---------------------------");
 
-            Regex rgx = new Regex(@"[\/\+\-\*]");
-            Regex nRgx = new Regex(@"[0-9]");
+            string action = Console.ReadLine();
 
-            Console.WriteLine("Digite um número");
-            numeroUm = Console.ReadLine();
-
-            var isValidNumberOne = nRgx.IsMatch(numeroUm, 0);
-
-            if (!isValidNumberOne)
+            switch (action)
             {
-                while (isValidNumberOne == false)
+                case "1":
+                    Operation("1");
+                    break;
+                case "2":
+                    Operation("2");
+                    break;
+                case "3":
+                    Operation("3");
+                    break;
+                case "4":
+                    Operation("4");
+                    break;
+                case "5":
+                    System.Environment.Exit(0);
+                    break;
+
+                default: break;
+            }
+        }
+
+        public static void Operation(string opr)
+        {
+            Regex nRgx = new Regex(@"[0-9]");
+            Console.WriteLine("Digite um numero");
+            string n1 = Console.ReadLine();
+
+
+            var isValidNumberone = nRgx.IsMatch(n1, 0);
+
+
+            if (!isValidNumberone)
+            {
+                while (isValidNumberone == false)
                 {
                     Console.WriteLine("Digite o número valido");
-                    numeroUm = Console.ReadLine();
-                    isValidNumberOne = nRgx.IsMatch(numeroUm, 0);
-
-                }
-
-            }
-
-            Console.WriteLine("Digite o operador");
-            operador = Console.ReadLine();
-
-            var isValidOperator = rgx.IsMatch(operador, 0);
-
-
-            if (!isValidOperator)
-            {
-                while (isValidOperator == false)
-                {
-                    Console.WriteLine("Digite o operador valido");
-                    operador = Console.ReadLine();
-                    isValidOperator = rgx.IsMatch(operador, 0);
+                    n1 = Console.ReadLine();
+                    isValidNumberone = nRgx.IsMatch(n1, 0);
 
                 }
 
             }
 
             Console.WriteLine("Digite outro número");
-            numeroDois = Console.ReadLine();
+            string n2 = Console.ReadLine();
 
-            var isValidNumberTwo = nRgx.IsMatch(numeroDois, 0);
+
+            var isValidNumberTwo = nRgx.IsMatch(n2, 0);
 
             if (!isValidNumberTwo)
             {
                 while (isValidNumberTwo == false)
                 {
                     Console.WriteLine("Digite o número valido");
-                    numeroDois = Console.ReadLine();
-                    isValidNumberTwo = nRgx.IsMatch(numeroDois, 0);
+                    n2 = Console.ReadLine();
+                    isValidNumberTwo = nRgx.IsMatch(n2, 0);
 
                 }
 
             }
-
-            if (operador == "+")
-
+            int total = 0;
+            switch (opr)
             {
-                total = Int32.Parse(numeroDois) + Int32.Parse(numeroUm);
-            }
-
-            if (operador == "/")
-            {
-                total = Int32.Parse(numeroDois) / Int32.Parse(numeroUm);
-            }
-
-            if (operador == "*")
-            {
-                total = Int32.Parse(numeroDois) * Int32.Parse(numeroUm);
-            }
-
-            if (operador == "-")
-            {
-                total = Int32.Parse(numeroDois) - Int32.Parse(numeroUm);
+                case "1":
+                    total = Int32.Parse(n1) + Int32.Parse(n2);
+                    break;
+                case "2":
+                    total = Int32.Parse(n1) / Int32.Parse(n2);
+                    break;
+                case "3":
+                    total = Int32.Parse(n1) - Int32.Parse(n2);
+                    break;
+                case "4":
+                    total = Int32.Parse(n1) * Int32.Parse(n2);
+                    break;
+                default: break;
             }
 
 
-            Console.WriteLine($" Resulta de {numeroUm} {operador} {numeroDois} é {total}");
-
+            Console.WriteLine($" Resulta é {total}");
+            Menu();
 
         }
+
+
+
     }
 
 }
