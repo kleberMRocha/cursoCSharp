@@ -1,0 +1,13 @@
+/home/kleber/Desktop/Cursocsharp/Stopwatch/bin/Debug/netcoreapp3.1/Stopwatch
+/home/kleber/Desktop/Cursocsharp/Stopwatch/bin/Debug/netcoreapp3.1/Stopwatch.deps.json
+/home/kleber/Desktop/Cursocsharp/Stopwatch/bin/Debug/netcoreapp3.1/Stopwatch.runtimeconfig.json
+/home/kleber/Desktop/Cursocsharp/Stopwatch/bin/Debug/netcoreapp3.1/Stopwatch.runtimeconfig.dev.json
+/home/kleber/Desktop/Cursocsharp/Stopwatch/bin/Debug/netcoreapp3.1/Stopwatch.dll
+/home/kleber/Desktop/Cursocsharp/Stopwatch/bin/Debug/netcoreapp3.1/Stopwatch.pdb
+/home/kleber/Desktop/Cursocsharp/Stopwatch/obj/Debug/netcoreapp3.1/Stopwatch.csprojAssemblyReference.cache
+/home/kleber/Desktop/Cursocsharp/Stopwatch/obj/Debug/netcoreapp3.1/Stopwatch.AssemblyInfoInputs.cache
+/home/kleber/Desktop/Cursocsharp/Stopwatch/obj/Debug/netcoreapp3.1/Stopwatch.AssemblyInfo.cs
+/home/kleber/Desktop/Cursocsharp/Stopwatch/obj/Debug/netcoreapp3.1/Stopwatch.csproj.CoreCompileInputs.cache
+/home/kleber/Desktop/Cursocsharp/Stopwatch/obj/Debug/netcoreapp3.1/Stopwatch.dll
+/home/kleber/Desktop/Cursocsharp/Stopwatch/obj/Debug/netcoreapp3.1/Stopwatch.pdb
+/home/kleber/Desktop/Cursocsharp/Stopwatch/obj/Debug/netcoreapp3.1/Stopwatch.genruntimeconfig.cache
